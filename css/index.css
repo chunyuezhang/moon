@@ -1,22 +1,22 @@
 a, abbr, acronym, address, applet, article, aside, audio,
 b, blockquote, big, body,
 center, canvas, caption, cite, code, command,
-datalist, dd, del, details, dfn, dl, div, dt, 
+datalist, dd, del, details, dfn, dl, div, dt,
 em, embed,
-fieldset, figcaption, figure, font, footer, form, 
+fieldset, figcaption, figure, font, footer, form,
 h1, h2, h3, h4, h5, h6, header, hgroup, html,
 i, iframe, img, ins,
-kbd, 
+kbd,
 keygen,
-label, legend, li, 
+label, legend, li,
 meter,
 nav,
 object, ol, output,
 p, pre, progress,
-q, 
+q,
 s, samp, section, small, span, source, strike, strong, sub, sup,
 table, tbody, tfoot, thead, th, tr, tdvideo, tt,
-u, ul, 
+u, ul,
 var{
     background: transparent;
     border: 0 none;
@@ -30,30 +30,33 @@ var{
 ol, ul {
     list-style: none;
 }
+a:hover{
+  text-decoration: none;
+}
 blockquote, q {
     quotes: none;
 }
-table, table td { 
+table, table td {
     padding:0;
     border:none;
     border-collapse:collapse;
 }
 img {
-    vertical-align:top; 
+    vertical-align:top;
 }
-embed { 
+embed {
     vertical-align:top;
 }
 
-.cf:before,.cf:after { 
-    content:""; 
+.cf:before,.cf:after {
+    content:"";
     display:table;
 }
-.cf:after { 
+.cf:after {
     clear:both;
 }
-.cf { 
-    zoom:1; 
+.cf {
+    zoom:1;
     clear:both;
 }
 
@@ -76,7 +79,7 @@ nav{
 	/*background-image: url(images/logoBg.png);
 	background-repeat: repeat;*/
 	background-color: #1c1f28;
-	
+
 }
 .logoChildBox{
 	width: 1205px;
@@ -87,8 +90,8 @@ nav{
 	display: block;
 	width: 208px;
 	height: 70px;
-	margin:20px auto;	
-	
+	margin:20px auto;
+
 }
 .logo input{
 	display: block;
@@ -108,7 +111,7 @@ nav{
 .icon-search:before{
 	/*line-height: 30px;*/
 	color: white;
-	
+
 }
 .icon-search{
 	position: absolute;
@@ -142,8 +145,8 @@ nav{
 	width: 100px;
 	height: 50px;
 	line-height: 50px;
-	text-align: center;	
-	color: black; 
+	text-align: center;
+	color: black;
 }
 .navList .en{
 	background-color: white;
@@ -201,13 +204,13 @@ nav{
 .main{
 	width: 1205px;
 	margin: 0 auto;
-	
+
 
 }
 .mainCarouselBox{
 	width: 1205px;
 	height: 114px;
-	overflow: hidden;	
+	overflow: hidden;
 	margin: 0 auto;
 	position: relative;
 	margin-top: 10px;
@@ -232,7 +235,7 @@ nav{
 }
 .mainCarouselBox span{
 	position: absolute;
-	bottom: 20%; 
+	bottom: 20%;
 	display: inline-block;
 	width: 30px;
 	height: 60px;
@@ -287,18 +290,18 @@ nav{
 	margin-right: 10px;
 	position: relative;
 	background-color: white;
-	
+
 	-moz-transition:all .3s ease-in-out  ; /* Firefox 4 */
 	-webkit-transition:all .3s ease-in-out  ; /* Safari 和 Chrome */
 	-o-transition:all .3s ease-in-out  ;
 	transition:all .3s ease-in-out;
-	
+
 }
 .products:hover{
 
 	margin-top: -5px;
 	/*-moz-box-shadow:5px #888888;*/ /* 老的 Firefox */
-	box-shadow:0 0 8px #dad9d3; 
+	box-shadow:0 0 8px #dad9d3;
 }
 .keyPic img{
 	width: 232px;
@@ -391,7 +394,7 @@ nav{
 .hotKeyPic{
 	position: relative;
 	width:232px;
-	background-color: white; 
+	background-color: white;
 }
 .hotKeyDescription{
 	position: absolute;
@@ -561,13 +564,13 @@ nav{
 .location{
 	width: 293px;
 	line-height: 20px;
-	
+
 }
 .addition{
 	width: 660px;
 	height: 220px;
 	margin: 0 auto;
-	margin-top: 97px; 
+	margin-top: 97px;
 	position: relative;
 
 }
@@ -618,7 +621,7 @@ nav{
 	font-size: 24px;
 	color: #000100;
 	line-height: 15px;
-	
+
 }
 footer{
 	width: 100%;
